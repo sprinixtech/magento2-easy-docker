@@ -1,6 +1,6 @@
 FROM php:7.1-apache
 
-MAINTAINER Gulshan Maurya
+MAINTAINER Gulshan Maurya <gulshan.4dream@gmail.com>
 
 ARG apache_user
 ARG USER_ID
