@@ -51,6 +51,7 @@ You can access phpmyadmin at localhost:8080 where port 8080 is defined in your
 - Put source code in ./source directory
 - Create a new db using phpmyadmin
 - Import DB using command "docker exec -i sprinix_mysql mysql -u root -proot db_name < mysqldumpfilename.sql" where sprinix is project name.
+- Now update your project URL in core_config_data for project base URL.
 
 #Troubleshooting
 - If you see Error "ERROR: Couldn't connect to Docker daemon - you might need to run `docker-machine start default`." then make sure all the directories in the current folder has the same ownership. or Delete the .db-data directory
