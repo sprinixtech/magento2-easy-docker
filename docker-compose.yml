@@ -30,7 +30,7 @@ services:
   phpmyadmin:
     container_name: ${PROJECT_NAME}_phpmyadmin
     restart: always
-    image: phpmyadmin/phpmyadmin:fpm-alpine
+    image: phpmyadmin/phpmyadmin
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - PMA_USER=root
